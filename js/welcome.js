@@ -8,7 +8,7 @@ $("document").ready(function () {
 // 'I'm bored' button prints API content to console
 $("#boredBtn").click(function () {
 	$.ajax({
-		url: "http://boredapi.restapi.co.za/",
+		url: "https://boredapi.restapi.co.za/",
 		success: function (response) {
 			console.log(response);
 		},
